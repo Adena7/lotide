@@ -38,4 +38,4 @@ console.log(map);
 const results1 = map(words, word => word[0]);
 console.log(results1);
 
-assertArraysEqual(eqArrays(results1, [ 'g', 'c', 't', 'm', 't' ]), true); //should PASS if function works!
+assertArraysEqual(eqArrays(results1, [ 'g', 'c', 't', 'm', 't' ]), true); //should PASS

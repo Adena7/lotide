@@ -42,7 +42,7 @@ const without = function(source, itemsToRemove) {
     }
   }
   return arr;
-}
+};
 
 const words = ["hello", "world", "lighthouse"];
 console.log(without(words, ["lighthouse", "world"]));

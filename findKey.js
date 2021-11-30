@@ -29,4 +29,3 @@ console.log(findKey({
   }, x => x.stars === 2)) // => "noma"
 
 
-
